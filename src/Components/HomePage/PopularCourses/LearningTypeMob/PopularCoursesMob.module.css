@@ -1,0 +1,234 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.gradient {
+  position: relative;
+  display: flex;
+  width: 85.28vw;
+  height: 121.39vw;
+  background-image: linear-gradient(to right top,rgba(244, 180, 26, 1),rgba(255, 255, 255, 0), rgba(226, 244, 26, 0));
+  border-radius: 5.5vw;
+  margin: auto;
+  margin-bottom: 5vw;
+}
+
+.card {
+  width: 84.28vw;
+  height: 120.39vw;
+  background-color: #182E3D;
+  border-radius: 5.5vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.coursesCardImg {
+  width: 84.28vw;
+}
+
+.cardContent {
+  padding: 5.55vw 6.2vw 6.9vw 6.2vw;
+}
+
+
+/*  */
+.viewingAndLike{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.78vw;
+}
+
+.viewing {
+  display: flex;
+  align-items: center;
+  background-color: #213E53;
+  border-radius: 2.2vw;
+  padding: 0.83vw 1.39vw;
+}
+
+.viewing img{
+  width: 3.9vw;
+  height: 3.9vw;
+  margin-right: 1.67vw;
+}
+
+.viewing p{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #C2C7CB;
+  font-size: 3.9vw;
+  margin: 0;
+  margin-top: 0.5vw;
+}
+
+.heart {
+  width: 6.67vw;
+  height: 6.67vw;
+}
+
+
+/*  */
+
+.durationAndType {
+  display: flex;
+  margin-bottom: 2.78vw;
+}
+
+.type {
+  display: flex;
+  align-items: center;
+}
+
+.type p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #728796;
+  font-size: 4.4vw;
+  margin: 0;
+}
+
+.coursetype {
+  width: 2.78vw;
+  height: 3.6vw;
+  margin-right: 1.6vw;
+}
+
+.duration, .hours, .level {
+  display: flex;
+  align-items: center;
+  margin-left: 4.1vw;
+}
+
+.calendar, .Level, .clock {
+  width: 3.61vw;
+  height: 3.61vw;
+  margin-right: 1.6vw;
+}
+
+.duration p, .hours p, .level p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #728796;
+  font-size: 4.2vw;
+  margin: 0;
+}
+
+/*  */
+
+.infarmation {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.67vw;
+}
+
+.nameAndBtn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3.3vw;
+}
+
+.cardName {
+  width: 50%;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 5.5vw;
+  text-align: start;
+  color: #FFC038;
+  margin: 0;
+}
+
+.onlineStatusBtn {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 5vw;
+  background-color: #243745;
+  border: 0.05vw solid #FFC038;
+  border-radius: 2.2vw;
+  color: #FFC038;
+  padding: 1.1vw 3.3vw 1.1vw 3.3vw;
+}
+
+.infarmation p{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 4.4vw;
+  text-align: start;
+  line-height: 5.5vw;
+  color: #E7E7E7;
+  margin: 0;
+}
+
+/*  */
+
+.dateAndPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 5vw;
+  color: #3FA2F0;
+  margin: 0;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.oldPrice {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #9A9A9A;
+  font-size: 5vw;
+  text-decoration: line-through;
+  margin: 0 2vw 0 0;
+}
+
+.newPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newPrice h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 6.67vw;
+  color: #FFC038;
+  margin: 0;
+}
+
+.newPrice p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 4.4vw;
+  color: #728796;
+  margin: 0;
+}
+
+/*  */
+.custom-dot {
+  width: 3.89vw;
+  height: 3.89vw;
+  border-radius: 50%;
+  background-color: #354956;
+  margin: 0 0.3vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-dot.active {
+  width: 3.89vw;
+  height: 3.89vw;
+  background-color: #E7E7E7;
+}
+
+.slick-dots li {
+  width: 0 !important;
+  margin: 0 0.26vw !important;
+}

@@ -1,0 +1,276 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.homePageTitleContainer {
+  width: 83.4vw;
+  margin: auto;
+  margin-top: 10.26vw;
+  margin-bottom: 22.92vw;
+}
+
+.homePageTitleContent {
+  display: flex;
+  flex-direction: column;
+  width: 31.77vw;
+}
+
+.homePageTitleContent h1 {
+  font-family: 'Teko', sans-serif;
+  font-weight: 500;
+  color: #EBEBEB;
+  font-size: 3.75vw;
+  margin-bottom: 1.875vw;
+  line-height: 4.77vw;
+}
+
+
+.homePageTitleContent h1 span {
+  font-size: 5.2vw;
+  color: #FFC038;
+}
+
+
+.homePageTitleContent p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #EBEBEB;
+  font-size: 1.14vw;
+  line-height: 1.56vw;
+  margin-bottom: 2.7vw;
+}
+
+
+.homePageTitleContent p span {
+  color: #FFC038;
+}
+
+.homePageTitleBtns {
+  display: flex;
+  align-items: center;
+}
+
+.getStatredBtn {
+  display: block;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.14vw;
+  color: #12222D;
+  background-color: #FFC038;
+  padding: 0.94vw 1.67vw;
+  border-radius: 0.625vw;
+  border: none;
+  margin-right: 1.04vw;
+  cursor: pointer;
+}
+
+.getStatredBtnLink {
+  text-decoration: none;
+}
+
+.getStatredBtn a{
+  margin: 0;
+}
+
+.getStatredBtn:hover {
+  background-color: #FFB30E;
+}
+
+.watchBtn {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  border-radius: 0.625vw;
+  border: 0.005vw solid #FFFFFF;
+  background-color: #12222D;
+  padding: 0.94vw 1.67vw 0.94vw 1.46vw;
+  font-size: 1.14vw;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.watchBtn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.watchBtn img{
+  width: 1.15vw;
+  height: 1.15vw;
+  margin-right: 0.84vw;
+}
+
+/* vectors */
+.vector1{
+  position: absolute;
+  width: 57.03vw;
+  height: 54.84vw;
+  top: 0;
+  right: 0;
+  z-index: -3;
+}
+.girl1 {
+  position: absolute;
+  width: 36.67vw;
+  height: 40.57vw;
+  top: 12.6vw;
+  right: 6.98vw;
+  z-index: -2;
+  filter: drop-shadow(10px 8px 6px #122200);
+}
+
+.rocketdesktop {
+  position: absolute;
+  width: 16vw;
+  height: 16vw;
+  top: 4.53vw;
+  right: 32.7vw;
+  filter: drop-shadow(10px 8px 6px #122200);
+  z-index: 1;
+  animation: rocketdesktop infinite 3s alternate;
+}
+
+
+@keyframes rocketdesktop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translatey(-3vw);
+  }
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+  .homePageTitleContainer {
+    width: 91.1vw;
+    margin: auto;
+    margin-top: 97.5vw;
+    margin-bottom: 8.34vw;
+  }
+  
+  .homePageTitleContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .homePageTitleContent h1 {
+    width: 70%;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    color: #EBEBEB;
+    font-size: 7.2vw;
+    margin-bottom: 2.78vw;
+    line-height: 7.2vw;
+    margin: 0;
+  }
+  
+  
+  .homePageTitleContent h1 span {
+    font-size: 8.3vw;
+    color: #FFC038;
+  }
+  
+  
+  .homePageTitleContent p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #EBEBEB;
+    font-size: 4.4vw;
+    line-height: 5.56vw;
+    margin-bottom: 6.94vw;
+  }
+  
+  
+  .homePageTitleContent p span {
+    color: #FFC038;
+  }
+  
+  .homePageTitleBtns {
+    display: flex;
+    align-items: center;
+  }
+  
+  .getStatredBtn {
+    display: block;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 4.16vw;
+    color: #12222D;
+    background-color: #FFC038;
+    padding: 4.17vw  3.89vw; 
+    border-radius: 3.3vw;
+    border: none;
+    margin-right: 6.67vw;
+    cursor: pointer;
+  }
+  
+  .getStatredBtnLink {
+    text-decoration: none;
+  }
+  
+  .getStatredBtn a{
+    margin: 0;
+  }
+  
+  .getStatredBtn:hover {
+    background-color: #FFB30E;
+  }
+  
+  .watchBtn {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    border-radius: 3.3vw;
+    border: 0.28vw solid #FFFFFF;
+    background-color: #12222D;
+    padding: 4.17vw;
+    font-size: 4.17vw;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .watchBtn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+  
+  .watchBtn img{
+    width: 5vw;
+    height: 5vw;
+    margin-right: 4.4vw;
+  }
+  
+  /* vectors */
+  .vector1mob {
+    position: absolute;
+    width: 98.06vw;
+    height: 104.17vw;
+    top: 0vw;
+    right: 0vw;
+    z-index: -3;
+  }
+  .girl1mob {
+    position: absolute;
+    width: 59.72vw;
+    height: 79.17vw;
+    top: 20.05vw;
+    right: 0;
+    z-index: -2;
+    filter: drop-shadow(10px 8px 6px #122200);
+  }
+  .rocketmobile {
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    top: 4.53vw;
+    right: 40vw;
+    z-index: -2;
+    animation: rocketdesktop infinite 3s alternate;
+    filter: drop-shadow(10px 8px 6px #122200);
+  }
+}

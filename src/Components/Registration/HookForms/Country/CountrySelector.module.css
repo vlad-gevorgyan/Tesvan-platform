@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.15vw;
+  margin: 0;
+  margin-bottom: 0.9vw;
+  color: #AFB9C0;
+}
+
+.select {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  border: 0.052vw solid #243745;
+  background-color: #243745; 
+  border-radius: 0.625vw;
+  color: #728796;
+  font-size: 1.15vw;
+  display: inline-block;
+  padding: 1.04vw 0.93vw 1.04vw 1.25vw;
+  width: 24.8vw;
+  cursor: pointer;
+}
+
+.select:hover {
+  border: 0.052vw solid #728796;
+}
+
+.formWrapper {
+  position: relative;
+}
+
+.selectContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.select {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.selectedOption {
+  display: inline-block;
+}
+
+.arrow {
+  width: 1.25vw;
+  height: 1.25vw;
+  display: inline-block;
+}
+
+
+.arrow svg {
+  width: 1.25vw;
+  height: 1.25vw;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  color: #FFB81E;
+}
+
+.customDropdownOptions {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  position: absolute;
+  top: 6vw;
+  left: 0px;
+  width: 27vw;
+  color: #EBEBEB;
+  text-align: left;
+  background-color: #243745;
+  border-radius: 0.625vw !important;
+  z-index: 10;
+}
+
+.customDropdownOption {
+  padding: 0.83vw 0 0.83vw 1.25vw;
+  cursor: pointer;
+}
+
+.customDropdownOption:hover {
+  color: #FFB81E;
+}
+
+.active {
+  color: #FFB81E;
+  background-color: #243745;
+  border-radius: 0.625vw !important;
+}
+
+.customDropdownOptions {
+  display: none;
+}
+
+.open .customDropdownOptions {
+  display: block;
+}
+
+.open.select {
+  border: 0.052vw solid #FFB81E;
+}
+
+/*  */
+
+/* Стили для контейнера скроллбара */
+.scrollableContainer {
+  overflow-y: auto; /* Включаем вертикальный скроллбар */
+  max-height: 18.1vw; /* Максимальная высота контейнера */
+  /* Добавьте другие стили по вашему усмотрению */
+}
+
+/* Стили для скроллбара */
+.scrollableContainer::-webkit-scrollbar {
+  width: 0.57vw; 
+  height: 1.09vw;
+}
+
+.scrollableContainer::-webkit-scrollbar-thumb {
+  background-color: #1A2933; /* Цвет фона скроллбара */
+  border-radius: 0.625vw; /* Закругление углов */
+}
+
+/* Стили для стрелок скроллбара */
+.scrollableContainer::-webkit-scrollbar-button {
+  display: none; /* Убираем стрелки */
+}
+
+
+
+@media (max-width: 480px) {
+  .formWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6.94vw;
+  }
+  
+  .title{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 5.5vw;
+    color: #AFB9C0;
+    margin: 0;
+    margin-bottom: 5vw;
+  }
+  
+  .select {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    border: 0.28vw solid #243745;
+    background-color: #243745; 
+    border-radius: 3.3vw;
+    color: #728796;
+    font-size: 5vw;
+    display: inline-block;
+    padding: 3vw 3vw 3vw 6.9vw;
+    width: 81.2vw;
+    cursor: pointer;
+  }
+  
+  .select:hover {
+    border: 0.28vw solid #728796;
+  }
+  
+  .select {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .selectedOption {
+    display: inline-block;
+  }
+
+  .arrow {
+    margin-right: 3vw;
+  }
+  
+  .arrow svg {
+    width: 2.8vw;
+    height: 2.8vw;
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+    color: #FFB81E;
+  }
+  
+  .customDropdownOptions {
+    position: absolute;
+    top: 25vw;
+    left: 0;
+    width: 91.1vw;
+    text-align: left;
+    border-radius: 3.33vw !important;
+    z-index: 10;
+  }
+  
+  .customDropdownOption {
+    padding: 3vw 3vw 3vw 6.9vw;
+    cursor: pointer;
+    
+  }
+  
+  .customDropdownOption:hover {
+    color: #FFB81E;
+  }
+  
+  .active {
+    color: #FFB81E;
+    background-color: #243745;
+    border-radius: 3.3vw !important;
+  }
+  
+  .open.select {
+    border: 0.28vw solid #FFB81E;
+  }
+
+  
+/* Стили для контейнера скроллбара */
+.scrollableContainer {
+  overflow-y: auto; /* Включаем вертикальный скроллбар */
+  max-height: 72vw; /* Максимальная высота контейнера */
+  /* Добавьте другие стили по вашему усмотрению */
+}
+
+/* Стили для скроллбара */
+.scrollableContainer::-webkit-scrollbar {
+  width: 3vw; 
+  height: 11.3vw;
+}
+
+.scrollableContainer::-webkit-scrollbar-thumb {
+  background-color: #1A2933; /* Цвет фона скроллбара */
+  border-radius: 0.625vw; /* Закругление углов */
+}
+
+/* Стили для стрелок скроллбара */
+.scrollableContainer::-webkit-scrollbar-button {
+  display: none; /* Убираем стрелки */
+}
+}
+
+
+

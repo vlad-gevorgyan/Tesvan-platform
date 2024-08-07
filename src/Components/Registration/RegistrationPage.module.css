@@ -1,0 +1,5 @@
+.registrationContainer {
+  flex: 1 1 auto;
+  display: flex;
+  margin: auto;
+}

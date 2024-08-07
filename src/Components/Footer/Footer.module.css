@@ -1,0 +1,264 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+
+.contentContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentContent {
+  border-top: 0.05vw solid rgba(98, 119, 133, 0.3);
+  width: 83.4vw;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  margin: 3.7vw 0 4.17vw 0;
+}
+
+.container {
+  display: none;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoAndName {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 2.66vw;
+  height: 3.3vw;
+}
+
+.logoAndName p{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  color: #EBEBEB;
+  font-size: 1.15vw;
+  margin-left: 0.94vw;
+}
+
+.socialNetwork {
+  display: flex;
+  margin: 3.4vw 0 2.6vw 0;
+}
+
+.socialNetworkLink {
+  width: 1.3vw;
+  height: 1.3vw;
+  border-radius: 0.31vw;
+  background-color: #213E53;
+  padding: 0.57vw 0.57vw 0.57vw 0.57vw;
+  margin-right: 0.625vw;
+}
+
+.socialNetworkLink img {
+  display: block;
+  width: 1.3vw;
+  height: 1.3vw;
+}
+
+.services {
+  width: 13vw;
+}
+
+.services p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.94vw;
+  color: #728796;
+  line-height: 1.35vw;
+}
+
+.services span {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 0.94vw;
+  color: #FFC038;
+}
+
+.container2 {
+  margin-left: 8vw;
+}
+
+.container3 {
+  background-color: #162A38;
+}
+
+.container3Content {
+  width: 83.4vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container3Content p{
+  margin: 1.87vw 0 1.87vw 0;
+  font-size: 0.94vw;
+  color: #728796;
+}
+
+.payment {
+  margin-top: 1.2vw;
+}
+
+.payment img{
+ width: 3.65vw;
+ height: 2.5vw;
+} 
+
+.payment img:not(:last-child) {
+  margin-right: 0.73vw;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  .footerContainer {
+    margin-top: 11.1vw;
+  }
+
+  .contentContent {
+    border-top: 0.05vw solid rgba(98, 119, 133, 0.3);
+    width: 92.8vw;
+    margin: auto;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: 3.7vw 0 4.17vw 0;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logoAndName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 11.1vw;
+  }
+
+  .logo {
+    width: 16.7vw;
+    height: 20.5vw;
+    margin-bottom: 5.5vw;
+  }
+
+  .logoAndName p{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    color: #EBEBEB;
+    font-size: 5vw;
+    margin: 0;
+  }
+
+  .socialNetwork {
+    width: 41.1vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .socialNetworkLink {
+    width: 5.6vw;
+    height: 5.6vw;
+    border-radius: 1.67vw;
+    background-color: #213E53;
+    padding: 2.2vw 2.2vw 2.2vw 2.2vw;
+    margin: 0;
+  }
+
+  .socialNetworkLink:hover {
+    color: red;
+  }
+
+  .socialNetworkLink img {
+    display: block;
+    width: 5.6vw;
+    height: 5.6vw;
+  }
+
+  .services {
+    width: 100%;
+    text-align: center;
+  }
+
+  .services p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+    color: #728796;
+    line-height: 7.2vw;
+  }
+
+  .services span {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+    color: #FFC038;
+  }
+
+  .container2 {
+    display: none;
+  }
+
+  .container3 {
+    background-color: #12222D;
+  }
+
+  .container3Content {
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+  .container3Content p{
+    margin: 0;
+    padding: 5.5vw;
+    padding-bottom: 5.5vw;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4.4vw;
+    color: #728796;
+    background-color: #162A38;
+  }
+
+  .payment {
+    margin: auto;
+    margin-top: 6.9vw;
+    margin-bottom: 6.9vw;
+  }
+
+  .payment img{
+    width: 15vw;
+    height: 10.28vw;
+  } 
+
+  .payment img:not(:last-child) {
+    margin-right: 2.78vw;
+  }
+}

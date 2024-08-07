@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.dateselectionform {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  color: #AFB9C0;
+  font-size: 1.15vw;
+}
+
+.date-input {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  width: 24.68vw;
+  margin-top: 0.9vw;
+  border-radius: 0.625vw;
+  padding: 1vw 1.04vw 1vw 1.25vw;
+  background-color: #243745;
+  color: #FFFFFF;
+  font-size: 1vw;
+  transition: border-color 0.3s;
+  border: 0.052vw solid #243745;
+}
+
+.date-input:hover{
+  border-color: #728796;
+}
+
+.date-input:focus {
+  border-color: #FFC038;
+  outline: none;
+}
+
+
+@media (max-width: 480px) { 
+  .dateselectionform {
+    margin-bottom: 6.94vw;
+  }
+
+  .label {
+    font-size: 5.5vw;
+  }
+  
+  .date-input {
+    width: 80.3vw;
+    margin-top: 2.8vw;
+    border-radius: 3.3vw;
+    padding: 3vw 4.4vw 3vw 6.4vw;
+    font-size: 5.5vw;
+    border: 0.28vw solid #243745;
+  }
+}

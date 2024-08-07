@@ -1,0 +1,188 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.67vw;
+  color: #EBEBEB;
+  margin-bottom: 3vw;
+}
+
+.login h1 span{
+  color: #FFC038;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5vw;
+}
+
+.title {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  color: #AFB9C0;
+  font-size: 1.15vw;
+  margin: 0;
+}
+
+.inputField {
+  width: 22.5vw;
+  margin-top: 0.94vw;
+  border-radius: 0.625vw;
+  padding: 1.04vw 1.04vw 1.04vw 1.25vw ;
+  background-color: #243745;
+  color: #FFFFFF;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.14vw;
+  transition: border-color 0.3s;
+  border: 0.05vw solid #243745;
+}
+
+.inputField:hover{
+  border-color: #728796;
+}
+
+.inputField:focus {
+  border-color: #FFC038;
+  outline: none;
+}
+
+.chekboxAndForgetPassword {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chekboxAndForgetPassword a {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.04vw;
+  color: #FFC038;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.chekboxAndForgetPassword a:hover {
+  color: #FFB30E;
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+}
+
+.checkboxContainer p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.04vw;
+  color: #728796;
+  margin: 0;
+  margin-left: 0.26vw;
+}
+
+.loginBtn {
+  width: 100%;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.14vw;
+  color: #12222D;
+  background-color: #FFC038;
+  padding-top: 0.94vw;
+  padding-bottom: 0.94vw;
+  margin-top: 2.7vw;
+  border-radius: 0.625vw;
+  border: none;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  background-color: #FFB30E;
+}
+
+.singUp {
+  margin: 0;
+  margin-top: 1.67vw;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.04vw;
+  color: #C2C7CB;
+  cursor: pointer;
+}
+
+.singUp span{
+  color: #FFC038;
+}
+
+.singUp span:hover{
+  color: #FFB30E;
+}
+
+.linksignUp {
+  text-decoration: none;
+}
+
+
+@media (max-width: 480px) {
+  .login h1 {
+    font-size: 6.1vw;
+    margin-bottom: 6.94vw;
+  }
+
+  .inputContainer {
+    margin-bottom: 8.6vw;
+  }
+  
+  .title {
+    font-size: 5.5vw;
+    margin: 0;
+  }
+  
+  .inputField {
+    width: 81.8vw;
+    margin-top: 2.8vw;
+    border-radius: 3.3vw;
+    padding: 3vw 3vw 3vw 6.3vw ;
+    font-weight: 400;
+    font-size: 5vw;
+    border: 0.28vw solid #243745;
+  }
+  
+  .chekboxAndForgetPassword a {
+    font-size: 5vw;
+  }
+  
+  .checkboxContainer p {
+    font-size: 5vw;
+    margin-left: -1.4vw;
+  }
+  
+  .loginBtn {
+    font-size: 4.2vw;
+    padding-top: 3.9vw;
+    padding-bottom: 3.9vw;
+    margin-top: 10.8vw;
+    border-radius: 3.3vw;
+  }
+  
+  .singUp {
+    margin-top: 11vw;
+    font-size: 4.4vw;
+  }
+}
+

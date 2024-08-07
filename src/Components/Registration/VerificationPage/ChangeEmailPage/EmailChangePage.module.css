@@ -1,0 +1,235 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.EmailChangePage {
+  flex: 1 1 auto;
+  display: flex;
+  margin: auto;
+}
+
+.ContainerLeft {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.bg1 {
+  width: 32.34vw;
+  height: 57.96vw;
+  position: absolute;
+  z-index: -10;
+}
+
+.leftcontent {
+  margin: 11.8vw 0 0 8.49vw;
+}
+
+.title h1 {
+  max-width: 90%;
+  font-family: 'Teko', sans-serif;
+  font-weight: 500;
+  font-size: 3.33vw;
+  line-height: 3.49vw;
+  color: #EBEBEB;
+  margin: 0;
+}
+
+.title h1 span {
+  color: #FFC038;
+}
+
+.regGirl {
+  width: 16.61vw;
+  height: 17.03vw;
+  margin-bottom: -0.31vw;
+}
+
+.storeContainer {
+  width: 22.8vw;
+  border-top: 0.15vw solid rgba(98, 119, 133, 0.5);
+  padding-top: 2.97vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.storeContainer p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #EBEBEB;
+  font-size: 1.15vw;
+  margin: 0;
+  margin-bottom: 1.04vw;
+}
+
+.store {
+  display: flex;
+}
+
+.store img {
+  width: 9.48vw;
+  height: 2.7vw;
+}
+
+.store img:not(:last-child){
+  margin-right: 0.73vw;
+}
+
+
+
+/*  */
+.ContainerRight {
+  width: 55.26vw;
+  margin: auto;
+  margin-top: 12.24vw;
+  margin-left: 4vw;
+}
+
+/*  */
+.emailChangeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #243745;
+  border-radius: 0.625vw;
+  padding: 2.6vw 14vw 4.6vw 14vw;
+  margin-bottom: 17.5vw;
+}
+
+.emailChange {
+  width: 9.8vw;
+  height: 8.65vw;
+  margin: auto;
+}
+
+
+.title {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.66vw;
+  margin: auto;
+  margin-top: 2vw;
+  margin-bottom: 3.4vw;
+  color: #FFC038;
+}
+
+.title span{
+  color: #EBEBEB;
+}
+
+@media (max-width: 480px) {
+  .EmailChangePage {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .ContainerLeft {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25.5vw;
+  }
+   
+  .bg1 {
+    width: 83.8vw;
+    height: 140.27vw;
+    position: absolute;
+    z-index: -10;
+  }
+  
+  .leftcontent {
+    margin: 26.39vw 0 0 4.17vw;
+  }
+  
+  .title h1 {
+    max-width: 60%;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 8.33vw;
+    line-height: 8.33vw;
+    color: #EBEBEB;
+    margin: 0;
+    margin-bottom: 5.47vw;
+  }
+  
+  .title h1 span {
+    color: #FFC038;
+  }
+  
+  .regGirl {
+    width: 49.72vw;
+    height: 50.83vw;
+    margin-left: 10.5vw;
+    margin-bottom: -1vw;
+  }
+  
+  .storeContainer {
+    width: 74vw;
+    border-top: 0.05vw solid rgba(98, 119, 133, 0.5);
+    padding-top: 4.4vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .storeContainer p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #EBEBEB;
+    font-size: 5.5vw;
+    margin: 0;
+    margin-bottom: 4.17vw;
+  }
+  
+  .store {
+    display: flex;
+  }
+  
+  .store img {
+    width: 33.3vw;
+    height: 9.7vw;
+  }
+  
+  .store img:not(:last-child){
+    margin-right: 2.8vw;
+  }
+  
+  .ContainerRight {
+    width: 91.1vw;
+    margin: auto;
+  }
+
+  .emailChangeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #243745;
+    border-radius: 3.3vw;
+    padding: 6.9vw 2.2 6.9vw 2.2vw;
+    margin-bottom: 0;
+  }
+  
+  .emailChange {
+    width: 33.8vw;
+    height: 29.7vw;
+    margin: auto;
+  }
+  
+  
+  .title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 6.1vw;
+    margin: auto;
+    margin-top: 5.5vw;
+    margin-bottom: 5.5vw;
+    color: #FFC038;
+  }
+  
+  .title span{
+    color: #EBEBEB;
+  }
+  
+}
+
+

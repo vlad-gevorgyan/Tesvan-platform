@@ -1,0 +1,277 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.EnterYourEmail {
+  flex: 1 1 auto;
+  display: flex;
+  margin: auto;
+}
+
+.ContainerLeft {
+  width: 32.34vw;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.bg1 {
+  width: 32.34vw;
+  height: 57.96vw;
+  position: absolute;
+  z-index: -10;
+}
+
+
+/*  */
+
+.leftcontent {
+  margin: 11.8vw 0 0 8.49vw;
+}
+
+.title h1 {
+  max-width: 80%;
+  font-family: 'Teko', sans-serif;
+  font-weight: 500;
+  font-size: 3.33vw;
+  line-height: 3.49vw;
+  color: #EBEBEB;
+  margin: 0;
+  margin-bottom: 4.47vw;
+}
+
+.title h1 span {
+  color: #FFC038;
+}
+
+.settingGirl {
+  width: 13.4vw;
+  height: 19.03vw;
+  margin-left: 2.7vw;
+}
+
+.storeContainer {
+  width: 22.8vw;
+  padding-top: 2.97vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.storeContainer p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #EBEBEB;
+  font-size: 1.15vw;
+  margin: 0;
+  margin-bottom: 1.04vw;
+}
+
+.store {
+  display: flex;
+}
+
+.store img {
+  width: 9.48vw;
+  height: 2.7vw;
+}
+
+.store img:not(:last-child){
+  margin-right: 0.73vw;
+}
+
+
+/*  */
+.ContainerRight {
+  width: 55.2vw;
+  margin-top: 12.24vw;
+  margin-bottom: 8.4vw;
+  margin-left: 3.8vw;
+}
+
+.registrationfields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+/*  */
+.enterYourEmailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #243745;
+  border-radius: 0.625vw;
+  padding: 3.3vw 3.5vw 2.7vw 3.5vw;
+}
+
+.images {
+  position: relative;
+}
+
+.passwordEmail {
+  width: 7vw;
+  height: 7.9vw;
+  margin: auto;
+}
+
+.locked {
+  width: 1.6vw;
+  height: 2vw;
+  position: absolute;
+  bottom: 8%;
+  left: 40%;
+  z-index: 1;
+}
+
+.enterYourEmailContent1 h1{
+  margin: auto;
+  margin-top: 2.2vw;
+  margin-bottom: 1.875vw;
+  color: #FFC038;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.6vw;
+}
+
+.enterYourEmailContent1 h1 span{
+  color: #EBEBEB;
+}
+
+.enterYourEmailContent1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.9vw;
+}
+
+.enterYourEmailContent1 p {
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.15vw;
+  text-align: center;
+  color: #EBEBEB;
+}
+
+.login {
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.04vw;
+  color: #C2C7CB;
+}
+
+.linkLogin {
+  color: #FFC038;
+}
+.linkLogin:hover {
+  color: #FFB30E;
+}
+
+.enterYourEmailContent2 {
+  margin-bottom: 1.875vw;
+}
+
+
+@media (max-width: 480px) {
+  .EnterYourEmail {
+    flex-direction: column;
+  }
+
+  .ContainerLeft {
+    width: 100%;
+    margin-bottom: 25vw;
+  }
+   
+  .bg1 {
+    width: 83.8vw;
+    height: 140.27vw;
+  }
+  
+  .leftcontent {
+    margin: 26.39vw 0 0 4.17vw;
+  }
+  
+  .title h1 {
+    width: 50%;
+    font-size: 8.33vw;
+    line-height: 8.33vw;
+    margin-bottom: 0;
+  }
+  
+  .settingGirl {
+    width: 38.8vw;
+    height: 56.1vw;
+    margin-left: 15.5vw;
+    margin-bottom: -1vw;
+  }
+  
+  .storeContainer {
+    width: 74vw;
+    border-top: 0.05vw solid rgba(98, 119, 133, 0.5);
+    padding-top: 4.4vw;
+  }
+  
+  .storeContainer p {
+    font-size: 5.5vw;
+    margin-bottom: 4.17vw;
+  }
+
+  .store img {
+    width: 33.3vw;
+    height: 9.7vw;
+  }
+  
+  .store img:not(:last-child){
+    margin-right: 2.8vw;
+  }
+  
+  /*  */
+  .ContainerRight {
+    width: 92.2vw;
+    margin: auto;
+  }
+
+  /*  */
+  .enterYourEmailContainer {
+    border-radius: 3.3vw;
+    padding: 7vw 2.2vw 7vw 2.2vw;
+  }
+
+  .passwordEmail {
+    width: 26.7vw;
+    height: 29.4vw;
+    margin: auto;
+  }
+
+  .locked {
+    width: 5.8vw;
+    height: 7.6vw;
+    bottom: 8%;
+    left: 40%;
+    z-index: 1;
+  }
+
+  .enterYourEmailContent1 h1{
+    margin-top: 5.5vw;
+    margin-bottom: 5.5vw;
+    font-size: 6.1vw;
+  }
+
+  .enterYourEmailContent1 {
+    margin-bottom: 5.5vw;
+  }
+
+  .enterYourEmailContent1 p {
+    font-size: 5vw;
+  }
+
+  .login {
+    font-size: 4.4vw;
+  }
+
+  .enterYourEmailContent2 {
+    margin-bottom: 5.5;
+  }
+}
+

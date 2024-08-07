@@ -1,0 +1,225 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.verifyEmailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 41.2vw;
+  padding: 3.3vw 7vw 2.76vw 7vw;
+  background-color: #243745;
+  border-radius: 0.625vw;
+  margin-bottom: 6.5vw;
+}
+
+.title {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  margin: auto;
+  margin-top: 2.2vw;
+  margin-bottom: 1.875vw;
+  color: #FFC038;
+  font-size: 1.67vw;
+}
+
+.title span{
+  color: #EBEBEB;
+}
+
+
+.mailimage {
+  width: 7.1vw;
+  height: 7.8vw;
+  margin: auto;
+}
+
+.verifyEmailContent {
+  margin-bottom: 3.2vw;
+}
+
+.verifyEmailContent p{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  color: #EBEBEB;
+  font-size: 1.15vw;
+}
+
+.verifyEmailContent a {
+  color: #FFC038;
+  cursor: pointer;
+}
+
+.verifyEmailContent a:hover{
+  color: #FFB30E;
+}
+
+.verifyEmailContent p:not(:last-child) {
+  margin-bottom: 1.7vw;
+}
+
+.verifyBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.verifyBtn span{
+  color: #AFB9C0;  
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.04vw;
+  margin: 0;
+  margin-bottom: 0.94vw;
+}
+
+.timer-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-button button.active {
+  padding: 0.73vw 1.25vw;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.04vw;
+  background-color: #FFC038;
+  color: #12222D;
+  border: none;
+  border-radius: 0.625vw;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.timer-button button.active:hover {
+  background-color: #FFB30E;
+}
+
+.timer-button button {
+  padding: 0.73vw 1.25vw;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.04vw;
+  background-color: rgba(255, 192, 56, 0.5);
+  cursor: not-allowed;
+  color: #12222D;
+  border: none;
+  border-radius: 0.625vw;
+}
+
+.timer-button p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 0.94vw;
+  margin-bottom: 0.52vw;
+  color: #FFC038;
+}
+
+@media (max-width: 480px) {
+  .verifyEmailContainer {
+    width: 84.4vw;
+    padding: 6.9vw 3.9vw 6.9vw 3.9vw;
+    background-color: #243745;
+    border-radius: 3.3vw;
+    margin-bottom: 0;
+  }
+  
+  .title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 6.1vw;
+    margin: auto;
+    margin-top: 5.5vw;
+    margin-bottom: 5.5vw;
+    color: #FFC038;
+  }
+  
+  .title span{
+    color: #EBEBEB;
+  }
+  
+  
+  .mailimage {
+    width: 26.7vw;
+    height: 29.7vw;
+    margin: auto;
+  }
+  
+  .verifyEmailContent {
+    margin-bottom: 5.5vw;
+  }
+  
+  .verifyEmailContent p{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+    text-align: center;
+    color: #EBEBEB;
+    margin: 0;
+  }
+
+  .verifyEmailContent p:not(:last-child) {
+    margin-bottom: 7.7vw;
+  }
+  
+  .verifyBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .verifyBtn span{
+    color: #AFB9C0;  
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+    margin: 0;
+    margin-bottom: 4.2vw;
+  }
+  
+  .timer-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timer-button button.active {
+    padding: 3.9vw 30.5vw;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4.1vw;
+    background-color: #FFC038;
+    color: #12222D;
+    border: none;
+    border-radius: 3.3vw;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .timer-button button.active:hover {
+    background-color: #FFB30E;
+  }
+  
+  .timer-button button {
+    padding: 3.9vw 30.5vw;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4.1vw;
+    background-color: rgba(255, 192, 56, 0.5);
+    cursor: not-allowed;
+    color: #12222D;
+    border: none;
+    border-radius: 3.3vw;
+  }
+  
+  .timer-button p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+    color: #FFC038;
+  }
+}

@@ -1,0 +1,194 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.select {
+  margin-top: 3.325vw;
+  margin-left: 2.18vw;
+  border: none;
+  background-color: rgba(0, 0, 0, 0); 
+  color: #EBEBEB;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.14vw;
+  display: inline-block;
+  padding: 0.42vw;
+  cursor: pointer;
+}
+
+.select:focus {
+  color: #FFB81E;
+}
+
+.triangle {
+  position: relative;
+  z-index: -1;
+  top: -0.52vw;
+  left: 1.3vw;
+  width: 0;
+  height: 0;
+  border-top: 2.5vw solid #213E53;
+  border-right: 2.19vw solid transparent;
+  border-radius: 0.3vw;
+  transform: rotate(45deg);
+  margin-bottom: -2.08vw;
+}
+
+.formWrapper {
+  position: relative;
+}
+
+.selectContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.select {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.selectedOption {
+  display: inline-block;
+  margin-right: 0.41vw;
+}
+
+.arrow {
+  display: inline-block;
+}
+
+.arrow svg{
+  width: 1.04vw;
+  height: 1.04vw;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  color: #FFB81E;
+}
+
+.customDropdownOptions {
+  position: absolute;
+  top: 6.77vw;
+  left: 1.5vw;
+  width: 5.2vw;
+  color: #EBEBEB;
+  text-align: center;
+  background-color: #213E53;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0.625vw !important;
+  z-index: 10;
+}
+
+.customDropdownOption {
+  padding: 0.41vw;
+  cursor: pointer;
+}
+
+.active {
+  color: #FFB81E;
+  background-color: #213E53;
+  border-radius: 0.625vw !important;
+}
+
+.customDropdownOptions {
+  display: none;
+}
+
+.open .customDropdownOptions {
+  display: block;
+}
+
+
+@media (max-width: 480px) {
+  .select {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    border: none;
+    padding: 0;
+    background-color: #12222D; 
+    color: #C4CDD3;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 5.56vw;
+    cursor: pointer;
+  }
+  
+  .select:focus {
+    color: #C4CDD3;
+  }
+  
+  .triangle {
+    display: none;
+  }
+  
+  .selectContainer {
+    display: flex;
+  }
+  
+  .select {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .selectedOption {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .arrow {
+    display: flex;
+    align-items: center;
+  }
+  
+  .arrow svg{
+    width: 5.56vw;
+    height: 4.2vw;
+  }
+  
+  .rotate {
+    color: #FFFFFF;
+    transform: rotate(180deg);
+  }
+  
+  .customDropdownOptions {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #C4CDD3;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 5.56vw;
+    text-align: start;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    border-radius: 0.625vw !important;
+    z-index: 0;
+  }
+  
+  .customDropdownOption {
+    padding: 0;
+    margin-top: 3.34vw;
+    cursor: pointer;
+  }
+  
+  .active {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    color: #BCD3DB;
+    background-color: #12222D;
+    border-radius: 0.625vw !important;
+  }
+  
+  .customDropdownOptions {
+    display: none;
+  }
+  
+  .open .customDropdownOptions {
+    display: block;
+  }
+}

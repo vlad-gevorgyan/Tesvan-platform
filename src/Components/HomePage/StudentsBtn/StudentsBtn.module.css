@@ -1,0 +1,164 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.studentsBtnContainer {
+  width: 83.4vw;
+  height: 28.1vw;
+  margin: auto;
+  margin-bottom: 8.7vw;
+}
+
+.gradient {
+  width: 83.4vw;
+  height: 25.8vw;
+  display: flex;
+  margin: auto;
+  border-radius: 2.5vw;
+  position: relative;
+  background-image: linear-gradient(to right bottom,rgba(244, 180, 26, 1),rgba(255, 255, 255, 0), rgba(226, 244, 26, 0));
+}
+
+
+.studentsBtnContent {
+  width: 83.2vw;
+  height: 25.5vw;
+  background-color: #162A38;
+  border-radius: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.studentsBtnContent h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  width: 50%;
+  color: #E4E4E4;
+  line-height: 3.49vw;
+  font-size: 2.5vw;
+  margin: 0;
+  margin-top: 4.34vw;
+  margin-left: 5vw;
+  line-height: 3.49vw;
+}
+
+.studentsBtnContent h1 span{
+  color: #FFC038;
+}
+
+
+
+/*  */
+
+.studentsBtn {
+  width: 12.9vw;
+  height: 3.23vw;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.15vw;
+  color: #12222D;
+  background-color: #FFC038;
+  border-radius: 0.625vw;
+  border: none;
+  margin: 0;
+  margin-right: 1.04vw;
+  margin-top: 3.07vw;
+  margin-left: 5vw;
+  cursor: pointer;
+}
+
+.studentsBtn:hover {
+  background-color: #FFB30E;
+}
+
+
+/*  */
+
+.sittingGirl {
+  width: 16.15vw;
+  height: 23.23vw;
+  position: absolute;
+  right: 2.6vw;
+  bottom: -2.34vw;
+  filter: drop-shadow(10px 8px 6px #122200);
+}
+
+
+@media (max-width: 480px) {
+  .studentsBtnContainer {
+    width: 91.1vw;
+    height: 139.2vw;
+    margin: auto;
+  }
+  
+  .gradient {
+    width: 91.1vw;
+    height: 139.2vw;
+    display: flex;
+    margin: auto;
+    border-radius: 10.5vw;
+    position: relative;
+    background-image: linear-gradient(to right bottom,rgba(244, 180, 26, 1),rgba(255, 255, 255, 0), rgba(226, 244, 26, 0));
+  }
+  
+  
+  .studentsBtnContent {
+    width: 90.3vw;
+    height: 138.7vw;
+    background-color: #162A38;
+    border-radius: 10.5vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .studentsBtnContent h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    width: 65%;
+    color: #E4E4E4;
+    line-height: 8.5vw;
+    font-size: 7.8vw;
+    margin: 0;
+    margin-top: 8.3vw;
+    margin-left: 8.3vw;
+  }
+  
+  .studentsBtnContent h1 span{
+    color: #FFC038;
+  }
+  
+  
+  
+  /*  */
+  
+  .studentsBtn {
+    width: 79.16vw;
+    height: 13.3vw;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4.17vw;
+    color: #12222D;
+    background-color: #FFC038;
+    border-radius: 3.3vw;
+    border: none;
+    margin: auto;
+    margin-top: 75.38vw;
+    cursor: pointer;
+  }
+  
+  .studentsBtn:hover {
+    background-color: #FFB30E;
+  }
+  
+  
+  /*  */
+  
+  .sittingGirl {
+    width: 43vw;
+    height: 61.7vw;
+    position: absolute;
+    top: 48.9vw;
+    right: 6.9vw;
+  }
+}

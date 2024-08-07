@@ -1,0 +1,268 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.becomestudentsContainer {
+  margin-bottom: 6.51vw;
+}
+
+.becomestudentsContent {
+  width: 83.4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.becomestudentsContent h1 {
+  font-family: 'Teko', sans-serif;
+  font-weight: 500;
+  color: #FFC038;
+  font-size: 3.34vw;
+  margin: 0;
+  margin-bottom: 3.65vw;
+}
+.becomestudentsContent h1 span{
+  color: #EBEBEB;
+}
+
+/*  */
+
+.cards {
+  display: flex;
+  margin-bottom: 3.34vw;
+}
+
+.card {
+  height: 10.31vw;
+}
+
+.card:not(:last-child) {
+  border-right: 0.02vw solid #627785;
+}
+
+.cardContent {
+  width: 10.42vw;
+  height: 8.23vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:not(:last-child) {
+  padding-right: 2vw;
+}
+
+.card:not(:first-child) {
+  padding-left: 2vw;
+}
+
+.card img {
+  margin-top: 1.04vw;
+  width: 3.125vw;
+  height: 3.125vw;
+}
+
+.stage {
+  color: #C2C7CB;
+  background-color: #213E53;
+  border-radius: 0.42vw;
+  padding: 0.2vw 0.42vw;
+  margin: auto;
+  margin-bottom: 1.14vw;
+  margin-top: 1.04vw;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.94vw;
+}
+
+.card p {
+  font-size: 0.94vw;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+/*  */
+
+.info {
+  border-radius: 0.52vw;
+  background-color: #213E53;
+  padding: 0.42vw 0.625vw;
+}
+
+.info p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.14vw;
+  color: #C2C7CB;
+  margin: 0;
+}
+
+/*  */
+
+.joinOurTeamBtn {
+  display: flex;
+  border-radius: 0.625vw;
+  border: 0.05vw solid #FFFFFF;
+  background-color: #12222D;
+  padding: 0.94vw 1.67vw;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.14vw;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 2.92vw;
+}
+  
+.joinOurTeamBtn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+
+@media (max-width: 480px) {
+  .becomestudentsContainer {
+    margin-bottom: 11.1vw;
+  }
+  
+  .becomestudentsContent {
+    width: 91.1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .becomestudentsContent h1 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    color: #FFC038;
+    font-size: 8.3vw;
+    margin: 0;
+    margin-bottom: 11.1vw;
+  }
+  .becomestudentsContent h1 span{
+    color: #EBEBEB;
+  }
+  
+  /*  */
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 11.1vw;
+    width: 91.1vw;
+  }
+  
+  .card {
+    height: 30.5vw;
+  }
+  
+  .card:not(:last-child) {
+    border: none;
+  }
+
+  .card:nth-child(1),
+  .card:nth-child(3),
+  .card:nth-child(5) {
+    border-right: 0.28vw solid #627785;
+    width: 42.3vw;
+  }
+
+  .card:nth-child(2),
+  .card:nth-child(4),
+  .card:nth-child(6) {
+    width: 46.2vw;
+    margin-left: 0.5vw;
+  }
+
+  .card:nth-child(1),
+  .card:nth-child(2),
+  .card:nth-child(3),
+  .card:nth-child(4) {
+    margin-bottom: 6.9vw;
+  }
+  
+  .cardContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card:not(:last-child) {
+    padding: 0;
+  }
+  
+  .card:not(:first-child) {
+    padding: 0;
+  }
+  
+  .card img {
+    margin: auto;
+    width: 11.1vw;
+    height: 11.1vw;
+  }
+  
+  .stage {
+    color: #C2C7CB;
+    background-color: #213E53;
+    border-radius: 2.2vw;
+    padding: 1.1vw 2.8vw;
+    margin: auto;
+    margin-bottom: 2.8vw;
+    margin-top: 2.8vw;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3.9vw;
+  }
+  
+  .card p {
+    font-size: 4.1vw;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  
+  /*  */
+  
+  .info {
+    border-radius: 2.8vw;
+    background-color: #213E53;
+    padding: 2.8vw 2.2vw;
+  }
+  
+  .info p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4.2vw;
+    color: #C2C7CB;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /*  */
+  
+  .joinOurTeamBtn {
+    display: flex;
+    border-radius: 3.3vw;
+    border: 0.28vw solid #FFFFFF;
+    background-color: #12222D;
+    padding: 2.8vw 4.2vw;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4.2vw;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 9.7vw;
+  }
+    
+  .joinOurTeamBtn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+  
+}

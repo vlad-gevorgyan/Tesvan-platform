@@ -1,0 +1,514 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.PersonalData {
+  flex: 1 1 auto;
+  display: flex;
+  margin: auto;
+}
+
+.ContainerLeft {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.bg1 {
+  width: 32.34vw;
+  height: 57.96vw;
+  position: absolute;
+  z-index: -10;
+}
+
+.leftcontent {
+  margin: 11.8vw 0 0 8.49vw;
+}
+
+.title h1 {
+  max-width: 90%;
+  font-family: 'Teko', sans-serif;
+  font-weight: 500;
+  font-size: 3.33vw;
+  line-height: 3.49vw;
+  color: #EBEBEB;
+  margin: 0;
+  margin-bottom: 5.47vw;
+}
+
+.title h1 span {
+  color: #FFC038;
+}
+
+.regGirl {
+  width: 16.61vw;
+  height: 17.03vw;
+  margin-bottom: -0.31vw;
+}
+
+.storeContainer {
+  width: 22.8vw;
+  border-top: 0.15vw solid rgba(98, 119, 133, 0.5);
+  padding-top: 2.97vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.storeContainer p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #EBEBEB;
+  font-size: 1.15vw;
+  margin: 0;
+  margin-bottom: 1.04vw;
+}
+
+.store {
+  display: flex;
+}
+
+.store img {
+  width: 9.48vw;
+  height: 2.7vw;
+}
+
+.store img:not(:last-child){
+  margin-right: 0.73vw;
+}
+
+
+
+/*  */
+.ContainerRight {
+  width: 55.26vw;
+  margin: auto;
+  margin-top: 12.24vw;
+  margin-left: 0;
+}
+
+/*  */
+.readinesScale {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4.68vw;
+}
+
+.scale1Container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.42vw;
+}
+
+.scale1Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circleactive {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  border-radius: 50%;
+  background-color: #FFC038;
+  padding: 0.42vw 0.83vw 0.47vw 0.83vw;
+  font-size: 1.04vw;
+  margin-bottom: 0.52vw;
+  color: #12222D;
+}
+
+.scale1Content span {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  color: #FFC038;
+  font-size: 0.94vw;
+}
+
+.circle {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  border-radius: 50%;
+  background-color: #354956;
+  color: #C2C7CB;
+  padding: 0.42vw 0.83vw 0.47vw 0.83vw;
+  font-size: 1.04vw;
+  margin-bottom: 0.52vw;
+}
+
+.scale1Content p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  color: #C2C7CB;
+  font-size: 0.94vw;
+  margin: 0;
+}
+
+
+.scale2Container {
+  width: 100%;
+}
+
+.scale {
+  height: 0.42vw;
+  background-color: #354956;
+  border-radius: 0.26vw;
+}
+
+.scalefilled{
+  width: 30%;
+  height: 0.42vw;
+  border-radius: 0.26vw;
+  background-color: #FFC038;
+}
+
+
+.registrationfields {
+  display: flex;
+  flex-direction: column;
+  width: 55.2vw;
+}
+
+
+.content1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5vw;
+}
+
+.content2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5vw;
+}
+
+.content3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5vw;
+}
+
+.content4 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.7vw;
+}
+
+/*  */
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+} 
+
+.nextbtn {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.15vw;
+  color: #12222D;
+  background-color: #FFC038;
+  padding: 0.94vw 1.17vw 0.94vw 1.17vw;
+  border-radius: 0.625vw;
+  border: none;
+  cursor: pointer;
+}
+
+.nextbtn:hover {
+  background-color: #FFB30E;
+}
+
+/*  */
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1.875vw;
+  margin-bottom: 6.57vw;
+}
+
+.login p{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  font-size: 1.04vw;
+  color: #C2C7CB;
+  margin-right: 0.2vw;
+}
+
+.login span:hover {
+  color: #FFB30E;
+}
+
+.loginLink{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  font-size: 1.04vw;
+  color: #FFC038;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+@media (max-width: 480px) {
+  .PersonalData {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .ContainerLeft {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25.5vw;
+  }
+   
+  .bg1 {
+    width: 83.8vw;
+    height: 140.27vw;
+    position: absolute;
+    z-index: -10;
+  }
+  
+  .leftcontent {
+    margin: 26.39vw 0 0 4.17vw;
+  }
+  
+  .title h1 {
+    width: 60%;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 8.33vw;
+    line-height: 8.33vw;
+    color: #EBEBEB;
+    margin: 0;
+    margin-bottom: 5.47vw;
+  }
+  
+  .title h1 span {
+    color: #FFC038;
+  }
+  
+  .regGirl {
+    width: 49.72vw;
+    height: 50.83vw;
+    margin-left: 10.5vw;
+    margin-bottom: -1vw;
+  }
+  
+  .storeContainer {
+    width: 74vw;
+    border-top: 0.05vw solid rgba(98, 119, 133, 0.5);
+    padding-top: 4.4vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .storeContainer p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #EBEBEB;
+    font-size: 5.5vw;
+    margin: 0;
+    margin-bottom: 4.17vw;
+  }
+  
+  .store {
+    display: flex;
+  }
+  
+  .store img {
+    width: 33.3vw;
+    height: 9.7vw;
+  }
+  
+  .store img:not(:last-child){
+    margin-right: 2.8vw;
+  }
+  
+  
+  
+  /*  */
+  .ContainerRight {
+    width: 91.1vw;
+    margin: auto;
+  }
+  
+  /*  */
+  .readinesScale {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 11.1vw;
+  }
+  
+  .scale1Container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.2vw;
+  }
+  
+  .scale1Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .circleactive {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    border-radius: 50%;
+    background-color: #FFC038;
+    padding: 1.2vw 3.4vw 1.5vw 3.4vw;
+    font-size: 5vw;
+    margin-bottom: 1.38vw;
+    color: #12222D;
+  }
+  
+  .circleCheck {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    border-radius: 50%;
+    background-color: #FFC038;
+    padding: 1.6vw 2vw 1.6vw 2vw;
+    font-size: 1.04vw;
+    margin-bottom: 1.38vw;
+  }
+  
+  .scale1Content span {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #FFC038;
+    font-size: 3.33vw;
+  }
+  
+  .scale1Content p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    color: #C2C7CB;
+    font-size: 3.3vw;
+    margin: 0;
+  }
+
+  .circle {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    border-radius: 50%;
+    background-color: #354956;
+    color: #C2C7CB;
+    padding: 1.2vw 3.4vw 1.5vw 3.4vw;
+    font-size: 5vw;
+    margin-bottom: 1.38vw;
+  }
+  
+  
+  /*  */
+  
+  .scale2Container {
+    width: 100%;
+  }
+  
+  .scale {
+    height: 2.2vw;
+    border-radius: 1.39vw;
+    background-color: #354956;
+  }
+  
+  .scalefilled{
+    width: 30%;
+    height: 2.2vw;
+    border-radius: 1.39vw;
+    background-color: #FFC038;
+  }
+  
+  
+  /*  */
+  
+  
+  .registrationfields {
+    display: flex;
+    flex-direction: column;
+    width: 91.1vw;
+    margin-bottom: 8.3vw;
+  }
+  
+  .content1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6.94vw;
+  }
+  
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6.94vw;
+  }
+  
+  .content3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6.94vw;
+  }
+  
+  .content4 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /*  */
+  .buttons {
+    display: flex;
+  }
+  
+  .nextbtn {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4.17vw;
+    color: #12222D;
+    background-color: #FFC038;
+    padding: 3.9vw 11.8vw;
+    border-radius: 3.33vw;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nextbtn:hover {
+    background-color: #FFB30E;
+  }
+  
+  /*  */
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0;
+    margin-top: 6.94vw;
+  }
+  
+  .login p{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    font-size: 4.4vw;
+    color: #C2C7CB;
+    margin-right: 1.1vw;
+  }
+  
+  .login span{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    font-size: 4.4vw;
+    color: #FFC038;
+    cursor: pointer;
+  }
+  
+  .login span:hover {
+    color: #FFB30E;
+  }
+  
+  .loginLink{
+    text-decoration: none;
+  }
+}

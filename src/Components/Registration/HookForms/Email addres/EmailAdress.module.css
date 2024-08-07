@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.inputContainer {
+  display: flex;
+  position: relative;
+}
+
+
+.title {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  color: #AFB9C0;
+  font-size: 1.15vw;
+  margin: 0;
+}
+
+.inputField {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  width: 24.68vw;
+  margin-top: 0.9vw;
+  border-radius: 0.625vw;
+  padding: 1.04vw 1.04vw 1.04vw 1.25vw;
+  background-color: #243745;
+  color: #FFFFFF;
+  font-size: 1.15vw;
+  transition: border-color 0.3s;
+  border: 0.052vw solid #243745;
+}
+
+.inputField:hover{
+  border-color: #728796;
+}
+
+.inputField:focus {
+  border-color: #FFC038;
+  outline: none;
+}
+
+.inputField.success {
+  border-color: #28a745;
+}
+
+.inputField.error {
+  border-color: #dc3545; 
+}
+
+.successMessage {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.9vw;
+  color: #28a745; 
+  display: none;
+  position: absolute;
+  top: 4vw;
+  left: 1vw;
+}
+
+.errorMessage {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.9vw;
+  color: #dc3545; 
+  display: none;
+  position: absolute;
+  top: 4vw;
+  left: 1vw;
+}
+
+.inputField.success:focus + .successMessage,
+.inputField.error:focus + .errorMessage {
+  display: block;
+}
+
+
+@media (max-width: 480px) {  
+  .email{
+    margin-bottom: 6.94vw;
+  }
+
+  .title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    color: #AFB9C0;
+    font-size: 5.5vw;
+  }
+  
+  .inputField {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    width: 78.3vw;
+    margin-top: 2.8vw;
+    border-radius: 3.3vw;
+    padding: 3vw 6.4vw 3vw 6.4vw;
+    background-color: #243745;
+    color: #FFFFFF;
+    font-size: 5vw;
+    transition: border-color 0.3s;
+    border: 0.28vw solid #243745;
+  }
+  
+  .successMessage {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4.4vw;
+    color: #28a745; 
+    display: none;
+    position: absolute;
+    top: 12vw;
+    left: 2vw;
+  }
+  
+  .errorMessage {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4.4vw;
+    color: #dc3545; 
+    display: none;
+    position: absolute;
+    top: 12vw;
+    left: 2vw;
+  }
+}

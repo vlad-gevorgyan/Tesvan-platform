@@ -1,0 +1,177 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.LoginPage {
+  flex: 1 1 auto;
+  display: flex;
+  margin: auto;
+}
+
+.ContainerLeft {
+  width: 32.34vw;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.bg1 {
+  width: 32.34vw;
+  height: 57.96vw;
+  position: absolute;
+  z-index: -10;
+}
+
+
+/*  */
+
+.leftcontent {
+  margin: 11.8vw 0 0 8.49vw;
+}
+
+.title h1 {
+  max-width: 80%;
+  font-family: 'Teko', sans-serif;
+  font-weight: 500;
+  font-size: 3.33vw;
+  line-height: 3.49vw;
+  color: #EBEBEB;
+  margin: 0;
+  margin-bottom: 4.47vw;
+}
+
+.title h1 span {
+  color: #FFC038;
+}
+
+.settingGirl {
+  width: 13.4vw;
+  height: 19.03vw;
+  margin-left: 2.7vw;
+}
+
+.storeContainer {
+  width: 22.8vw;
+  padding-top: 2.97vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.storeContainer p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #EBEBEB;
+  font-size: 1.15vw;
+  margin: 0;
+  margin-bottom: 1.04vw;
+}
+
+.store {
+  display: flex;
+}
+
+.store img {
+  width: 9.48vw;
+  height: 2.7vw;
+}
+
+.store img:not(:last-child){
+  margin-right: 0.73vw;
+}
+
+
+/*  */
+.ContainerRight {
+  width: 55.26vw;
+  margin-top: 12.24vw;
+  margin-bottom: 15vw;
+}
+
+
+@media (max-width: 480px) {
+  .LoginPage {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .ContainerLeft {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25.5vw;
+  }
+   
+  .bg1 {
+    width: 83.8vw;
+    height: 140.27vw;
+    position: absolute;
+    z-index: -10;
+  }
+  
+  .leftcontent {
+    margin: 26.39vw 0 0 4.17vw;
+  }
+  
+  .title h1 {
+    width: 50%;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 8.33vw;
+    line-height: 8.33vw;
+    color: #EBEBEB;
+    margin: 0;
+    margin-bottom: 5.47vw;
+  }
+  
+  .title h1 span {
+    color: #FFC038;
+  }
+  
+  .settingGirl {
+    width: 49.72vw;
+    height: 50.83vw;
+    margin-left: 10.5vw;
+    margin-bottom: -1vw;
+  }
+  
+  .storeContainer {
+    width: 74vw;
+    border-top: 0.05vw solid rgba(98, 119, 133, 0.5);
+    padding-top: 4.4vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .storeContainer p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #EBEBEB;
+    font-size: 5.5vw;
+    margin: 0;
+    margin-bottom: 4.17vw;
+  }
+  
+  .store {
+    display: flex;
+  }
+  
+  .store img {
+    width: 33.3vw;
+    height: 9.7vw;
+  }
+  
+  .store img:not(:last-child){
+    margin-right: 2.8vw;
+  }
+  
+  
+  
+  /*  */
+  .ContainerRight {
+    width: 91.1vw;
+    margin: auto;
+  }
+}

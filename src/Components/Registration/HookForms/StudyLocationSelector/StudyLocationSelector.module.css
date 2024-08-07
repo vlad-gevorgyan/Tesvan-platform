@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5vw;
+}
+
+.title{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 0.9vw;
+  font-size: 1.15vw;
+  color: #AFB9C0;
+}
+
+.select {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  border: 0.052vw solid #243745;
+  background-color: #243745; 
+  border-radius: 0.625vw;
+  color: #728796;
+  font-size: 1.04vw;
+  display: inline-block;
+  padding: 1.04vw 0.93vw 1.04vw 1.25vw;
+  width: 24.8vw;
+  cursor: pointer;
+}
+
+.select:hover {
+  border: 0.052vw solid #728796;
+}
+
+.formWrapper {
+  position: relative;
+}
+
+.selectContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.select {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.selectedOption {
+  display: inline-block;
+}
+
+.arrow {
+  display: inline-block;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  color: #FFB81E;
+}
+
+.customDropdownOptions {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  position: absolute;
+  top: 4vw;
+  left: 0px;
+  width: 27vw;
+  color: #EBEBEB;
+  text-align: left;
+  background-color: #243745;
+  box-shadow: 0 0.1vw 0.26vw rgba(0, 0, 0, 0.2);
+  border-radius: 0.625vw !important;
+  z-index: 10;
+}
+
+.customDropdownOption {
+  padding: 0.83vw 0 0.83vw 1.25vw;
+  cursor: pointer;
+}
+
+.customDropdownOption:hover {
+  color: #FFB81E;
+}
+
+.active {
+  color: #FFB81E;
+  background-color: #243745;
+  border-radius: 0.625vw !important;
+}
+
+.customDropdownOptions {
+  display: none;
+}
+
+.open .customDropdownOptions {
+  display: block;
+}
+
+.open.select {
+  border: 0.052vw solid #FFB81E;
+}
+
+@media (max-width: 480px) {
+  .formWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6.94vw;
+  }
+  
+  .title{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 5.5vw;
+    color: #AFB9C0;
+    margin: 0;
+    margin-bottom: 5vw;
+  }
+  
+  .select {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    border: 0.052vw solid #243745;
+    background-color: #243745; 
+    border-radius: 3.3vw;
+    color: #728796;
+    font-size: 5vw;
+    display: inline-block;
+    padding: 3vw 3vw 3vw 6.9vw;
+    width: 81.2vw;
+    cursor: pointer;
+  }
+  
+  .select:hover {
+    border: 0.28vw solid #728796;
+  }
+  
+  .formWrapper {
+    position: relative;
+  }
+  
+  .selectContainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .select {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .selectedOption {
+    display: inline-block;
+  }
+  
+  .arrow {
+    display: inline-block;
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+    color: #FFB81E;
+  }
+  
+  .customDropdownOptions {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 15vw;
+    left: 0px;
+    width: 91.1vw;
+    color: #EBEBEB;
+    text-align: left;
+    background-color: #243745;
+    box-shadow: 0 0.1vw 0.26vw rgba(0, 0, 0, 0.2);
+    border-radius: 3.33vw !important;
+    z-index: 10;
+  }
+  
+  .customDropdownOption {
+    padding: 3vw 3vw 3vw 6.9vw;
+    cursor: pointer;
+    
+  }
+  
+  .customDropdownOption:hover {
+    color: #FFB81E;
+  }
+  
+  .active {
+    color: #FFB81E;
+    background-color: #243745;
+    border-radius: 3.3vw !important;
+  }
+  
+  .open.select {
+    border: 0.28vw solid #FFB81E;
+  }
+}

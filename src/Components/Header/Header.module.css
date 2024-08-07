@@ -1,0 +1,81 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+
+.navbar {
+  position: fixed;
+  background-color: rgba(0, 0, 0,0 );
+  width: 100vw;
+  height: 5.83vw;
+  z-index: 100;
+  transition: background-color 0.3s ease;
+}
+
+.navbarContainer {
+  display: flex;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.scrolled{
+  background-color: rgba(22, 42, 56);
+  height: 7.82vw;
+  z-index: 100;
+}
+
+
+.navbarContainer1 {
+  display: flex;
+}
+
+.navbarLogo {
+  margin-top: 2.24vw;
+  margin-right: 4.4vw;
+  width: 2.6vw;
+  height: 3.28vw;
+}
+
+.frame {
+  display: block;
+  width: 2.6vw;
+  height: 3.28vw;
+}
+
+.framelink {
+  width: 2.6vw;
+  height: 3.28vw;
+}
+
+.navbarContainer2 {
+  display: flex;
+  align-items: center;
+}
+
+.interviewRequestBtn {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.04vw;
+  color: #12222D;
+  background-color: #FFC038;
+  margin-top: 2.71vw;
+  margin-left: 2.2vw;
+  border-radius: 0.62vw;
+  border: none;
+  padding: 0.73vw 1.25vw 0.73vw 1.25vw;
+  cursor: pointer;
+}
+
+.interviewRequestBtn:hover {
+  background-color: #FFB30E;
+}
+
+.line {
+  height: 2.24vw;
+  margin-top: 2.9vw;
+  margin-left: 2.2vw;
+}
+

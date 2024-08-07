@@ -1,0 +1,300 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+
+.slider-container {
+  width: 83.4vw;
+  margin: auto;
+  margin-bottom: 6.5vw;
+}
+
+.slidertitle {
+  font-family: 'Teko', sans-serif;
+  font-weight: 500;
+  color: #FFC038;
+  text-align: center;
+  font-size: 3.34vw;
+  line-height: 3.49vw;
+  margin-bottom: 3.65vw;
+}
+
+.slidertitle span {
+  color: #EBEBEB;
+}
+
+.slider-card {
+  bottom: 0;
+  background-color: 12222D;
+  transition: all 0.3s ease;
+  margin: 3.1vw 3.34vw 9.47vw auto;
+  width: 21.87vw;
+  height: 24.69vw;
+  opacity: 0.5;
+}
+
+.slider-card.active {
+  transform: scale(1.24);
+  background-color: #12222D;
+  z-index: 1;
+  opacity: 1;
+}
+
+.cardContent {
+  width: 21.88vw;
+  height: 17.34vw;
+  padding-top: 1.25vw;
+  background-color: #162A38;
+  border-radius: 1.67vw;
+  border-bottom-left-radius: 0;
+}
+
+.quote {
+  margin-left: 1.88vw;
+  width: 3.23vw;
+  height: 3.23vw;
+}
+
+.comment {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  width: 17.5vw;
+  height: 7.3vw;
+  font-size: 0.94vw;
+  margin: 0.36vw 1.88vw 1.46vw 2.5vw;
+  color: #BCD3DB;
+  line-height: 1.46vw;
+}
+
+.stars {
+  display: flex;
+  margin-bottom: 2.4vw;
+  margin-left: 2.5vw;
+}
+
+.stars img {
+  width: 1.4vw;
+  height: 1.35vw;
+}
+
+.stars img:not(:last-child) {
+  margin-right: 0.52vw;
+}
+
+.cardstyle {
+  width: 0;
+  height: 0;
+  border-top: 2.5vw solid #162A38;
+  border-right: 2.19vw solid transparent;
+  transform: rotate(360deg);
+}
+
+.avatar {
+  margin-top: 1.04vw;
+  margin-right: 1.25vw;
+  border-radius: 50%;
+  width: 4.2vw;
+  height: 4.2vw;
+}
+
+
+.commentator {
+  display: flex;
+  align-items: center;
+}
+
+.commentatorInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameAndSurname {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  display: flex;
+  color: #EBEBEB;
+  font-size: 0.94vw;
+}
+
+.profession {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.84vw;
+  color: #9CA3A7;
+}
+
+/*  */
+.custom-dot {
+  width: 0.73vw;
+  height: 0.73vw;
+  border-radius: 50%;
+  background-color: #354956;
+  margin: 0 0.3vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-dot.active {
+  width: 1.04vw;
+  height: 1.04vw;
+  margin-top: -0.16vw;
+  background-color: #E7E7E7;
+}
+
+.slick-dots li {
+  width: 0 !important;
+  margin: 0 0.26vw !important;
+}
+
+/*  */
+.commentgirl {
+  position: absolute;
+  width: 11.6vw;
+  height: 30.57vw;
+  top: 210.8vw;
+  right: 0.9vw;
+  filter: drop-shadow(10px 8px 6px #122200);
+}
+
+
+@media (max-width: 480px) {
+  .slider-container {
+    width: 91.1vw;
+    margin: auto;
+    margin-bottom: 6.5vw;
+  }
+  
+  .slidertitle {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    color: #FFC038;
+    text-align: center;
+    font-size: 8.3vw;
+    line-height: 18.6vw;
+  }
+  
+  .slidertitle span {
+    color: #EBEBEB;
+  }
+  
+  .slider-card {
+    bottom: 0;
+    background-color: 12222D;
+    transition: all 0.3s ease;
+    margin: 3.1vw 3.34vw 9.47vw auto;
+    width: 91.1vw;
+    height: 111.94vw;
+    opacity: 1;
+  }
+  
+  .slider-card.active {
+    transform: scale(1);
+    background-color: #12222D;
+    z-index: 1;
+    opacity: 1;
+  }
+  
+  .cardContent {
+    width: 74.9vw;
+    height: 64.9vw;
+    background-color: #162A38;
+    border-radius: 8.89vw;
+    border-bottom-left-radius: 0;
+    padding: 7.2vw;
+  }
+  
+  .quote {
+    margin: 0;
+    width: 13.9vw;
+    height: 13.9vw;
+  }
+  
+  .comment {
+    font-family: 'Fira Sans', sans-serif;
+    width: 76.6vw;
+    height: 41.67vw;
+    font-weight: 400;
+    font-size: 4.4vw;
+    color: #BCD3DB;
+    line-height: 6.9vw;
+  }
+  
+  .stars {
+    display: flex;
+    margin: 0;
+    margin-left: 2.5vw;
+  }
+  
+  .stars img {
+    width: 6.67vw;
+    height: 6.67vw;
+  }
+  
+  .stars img:not(:last-child) {
+    margin-right: 2.78vw;
+  }
+  
+  .cardstyle {
+    width: 0;
+    height: 0;
+    border-top: 8vw solid #162A38;
+    border-right: 10vw solid transparent;
+    transform: rotate(360deg);
+  }
+  
+  .avatar {
+    margin-top: 5.5vw;
+    margin-right: 4.17vw;
+    border-radius: 50%;
+    width: 16.67vw;
+    height: 16.67vw;
+  }
+  
+  
+  .commentator {
+    display: flex;
+    align-items: center;
+  }
+  
+  .commentatorInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nameAndSurname {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    display: flex;
+    color: #EBEBEB;
+    font-size: 4.4vw;
+  }
+  
+  .profession {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3.89vw;
+    color: #9CA3A7;
+  }
+  
+  /*  */
+  .custom-dot {
+    width: 3.33vw;
+    height: 3.33vw;
+    border-radius: 50%;
+    background-color: #354956;
+    margin: 0 0.3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-dot.active {
+    width: 3.89vw;
+    height: 3.89vw;
+    margin-top: -0.5vw;
+    background-color: #E7E7E7;
+  }
+  
+  .slick-dots li {
+    width: 0 !important;
+    margin: 0 0.26vw !important;
+  }
+}

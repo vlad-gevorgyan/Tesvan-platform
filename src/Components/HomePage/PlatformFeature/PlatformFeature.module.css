@@ -1,0 +1,201 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.platformFeatureContainer {
+  width: 83.4vw;
+  margin: auto;
+  margin-bottom: 12.66vw;
+}
+
+.platformFeatureContent {
+  width: 76.52vw;
+  height: 12.67vw;
+  display: flex;
+  background-color: #162A38;
+  border-radius: 2.5vw;
+  margin: auto;
+  margin-right: 0;
+  padding: 2.9vw 3.38vw;
+}
+
+.gradient {
+  display: flex;
+  width: 83.4vw;
+  height: 18.75vw;
+  background-image: linear-gradient(to right bottom,rgba(244, 180, 26, 1),rgba(255, 255, 255, 0), rgba(226, 244, 26, 0));
+  border-radius: 2.5vw;
+}
+
+.contentContainerGradient {
+  width: 13.18vw;
+}
+
+.contentContainerGradient:not(:last-child) {
+  margin-right: 7.97vw;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title img {
+  width: 2.86vw;
+  height: 2.86vw;
+}
+
+.title p{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.25vw;
+  color: #FFC038;
+  margin: 0;
+  margin-top: 0.94vw;
+  margin-bottom: 1.87vw;
+}
+
+.description {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.04vw;
+  color: #AFB9C0;
+  border-top: 0.005vw solid #627785;
+  margin: 0;
+}
+
+
+.viewPlatformBtn {
+  display: flex;
+  align-items: center;
+  border-radius: 0.625vw;
+  border: 0.05vw solid #FFFFFF;
+  background-color: #12222D;
+  padding: 0.94vw 1.67vw 0.94vw 1.67vw;
+  justify-content: space-around;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.15vw;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 2.9vw;
+}
+
+.viewPlatformBtn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+
+@media (max-width: 480px) {
+  .platformFeatureContainer {
+    width: 91.1vw;
+    margin: auto;
+    margin-bottom: 11.1vw;
+  }
+  
+  .platformFeatureContent {
+    width: 91.1vw;
+    height: 111.67vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #12222D;
+    border-radius: 0;
+    margin: auto;
+    margin-right: 0;
+    padding: 0;
+  }
+  
+  .gradient {
+    display: flex;
+    width: 91.1vw;
+    height: 111.67vw;
+    background-image: none;
+    border-radius: 0;
+  }
+  
+  .contentContainerGradient {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 42.7vw;
+    height: 53.05vw;
+    background-image: linear-gradient(to right bottom,rgba(244, 180, 26, 1),rgba(255, 255, 255, 0), rgba(226, 244, 26, 0));
+    border-radius: 5.56vw;
+  }
+
+  .contentContainerGradient:nth-child(1){
+    margin-right: 5.54vw;
+    margin-bottom: 5.54vw;
+  }
+  .contentContainerGradient:nth-child(2){
+    margin-right: 0;
+    margin-bottom: 5.54vw;
+  }
+  .contentContainerGradient:nth-child(3){
+    margin-right: 5.54vw;
+  }
+  .contentContainerGradient:nth-child(4){
+    margin-right: 0;
+  }
+
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.4vw;
+    margin-left: 0.4vw;
+    width: 38.72vw;
+    height: 37.5vw;
+    background-color: #162A38;
+    border-radius: 5.56vw;
+    padding: 7.78vw 1.94vw 7.5vw 1.94vw;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title img {
+    width: 10vw;
+    height: 10vw;
+  }
+  
+  .title p{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 3.7vw;
+    color: #FFC038;
+    margin: 0;
+    margin-top: 4.17vw;
+    margin-bottom: 2.78vw;
+  }
+  
+  .description {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 3.3vw;
+    color: #AFB9C0;
+    border-top: 0.28vw solid #627785;
+    margin: 0;
+  }
+  
+  
+  .viewPlatformBtn {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    border-radius: 3.3vw;
+    border: 0.28vw solid #FFFFFF;
+    background-color: #12222D;
+    padding: 4.17vw;
+    font-size: 4.17vw;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 6.94vw;
+  }
+  
+  .viewPlatformBtn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+}

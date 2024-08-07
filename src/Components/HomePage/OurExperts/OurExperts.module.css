@@ -1,0 +1,197 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+
+.ourExpertscontainer {
+  background-color: #162A38;
+  margin-bottom: 6.51vw;
+}
+
+.ourExpertscontent {
+  width: 83.4vw;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 4.69vw;
+  margin-bottom: 5.16vw;
+}
+
+.titleAndInfo {
+  margin-right: 8.28vw;
+}
+
+.titleAndInfo h1 {
+  font-family: 'Teko', sans-serif;
+  font-weight: 500;
+  color: #FFC038;
+  font-size: 3.34vw;
+  margin: 0;
+  margin-bottom: 2.5vw;
+}
+
+.titleAndInfo h1 span {
+  color: #EBEBEB;
+}
+
+.infocontainer {
+  width: 33.9vw;
+}
+
+.infocontainer p{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #EBEBEB;
+  font-size: 1.15vw;
+  line-height: 1.71vw;
+}
+
+/*  */
+
+.expertsImages {
+  display: flex;
+}
+
+.expertsImages div:not(:last-child) {
+  margin-right: 1.04vw;
+}
+
+.expertImg img{
+  width: 13.02vw;
+  height: 13.02vw;
+  border-radius: 1.46vw;
+}
+
+.gradient {
+  width: 13.02vw;
+  height: 13.02vw;
+  display: flex;
+  border-radius: 1.16vw;
+  position: relative;
+  background-image: linear-gradient(to left top,rgba(244, 180, 26, 1),rgba(255, 255, 255, 0), rgba(226, 244, 26, 0));
+}
+
+.aboutUs {
+  width: 12.8vw;
+  height: 12.8vw;
+  background-color: #213E53;
+  border-radius: 1.16vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.aboutUs:hover {
+  background-color: #193B53;
+}
+
+.aboutUs p {
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 2.19vw;
+}
+
+
+@media (max-width: 480px) {
+
+  .ourExpertscontainer {
+    background-color: #162A38;
+    margin-bottom: 11.1vw;
+  }
+
+  .ourExpertscontent {
+    width: 91.2vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 11.1vw;
+    margin-bottom: 5vw;
+  }
+
+  .titleAndInfo {
+    margin: auto;
+  }
+
+  .titleAndInfo h1 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    color: #FFC038;
+    font-size: 8.3vw;
+    margin-bottom: 6.9vw;
+    text-align: center;
+  }
+
+  .titleAndInfo h1 span {
+    color: #EBEBEB;
+  }
+
+  .infocontainer {
+    width: 91.1vw;
+  }
+
+  .infocontainer p{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #EBEBEB;
+    font-size: 4.9vw;
+    line-height: 6.9vw;
+  }
+
+  /*  */
+
+  .expertsImages {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .expertsImages div:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .expertsImages div:nth-child(1),
+  .expertsImages div:nth-child(3) {
+    margin-right: 5.5vw;
+  }
+
+  .expertsImages div:nth-child(1),
+  .expertsImages div:nth-child(2) {
+    margin-bottom: 5.5vw;
+  }
+
+  .expertImg img{
+    width: 42.78vw;
+    height: 42.78vw;
+    border-radius: 5.5vw;
+  }
+
+  .gradient {
+    width: 42.78vw;
+    height: 42.78vw;
+    display: block;
+    border-radius: 5.5vw;
+    background-image: linear-gradient(to left top,rgba(244, 180, 26, 1),rgba(255, 255, 255, 0), rgba(226, 244, 26, 0));
+  }
+
+  .aboutUs {
+    width: 42.28vw;
+    height: 42.28vw;
+    background-color: #213E53;
+    border-radius: 5.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+
+  .aboutUs:hover {
+    background-color: #193B53;
+  }
+
+  .aboutUs p {
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 8.8vw;
+  }
+}

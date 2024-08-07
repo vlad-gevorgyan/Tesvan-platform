@@ -1,0 +1,123 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 80.5vw;
+  margin: auto;
+}
+
+.nav .item:not(:last-child) {
+  margin-bottom: 8.33vw;
+}
+
+/*  */
+
+.item {
+  width: 85.55vw;
+  margin: auto;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #C4CDD3;
+  font-size: 5.56vw;
+  text-decoration: none;
+}
+
+.active {
+ color: #EBEBEB;
+ text-decoration: none;
+}
+
+/*  */
+
+.dropdown {
+  border: none;
+  margin-top: 0.52vw;
+  z-index: 1;
+}
+
+.dropdownItem {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  display: block;
+  color: #C4CDD3;
+  text-decoration: none;
+  margin-bottom: 3.34vw;
+}
+
+.dropdownItem:hover {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  color: #BCD3DB;
+}
+
+.dropdownItem:first-child {
+  margin-top: 3.34vw;
+}
+
+.dropdownItem:last-child {
+  margin-bottom: 0;
+}
+
+.dropdownTrigger {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  display: block;
+  color: #C4CDD3;
+  margin-top: 6.94vw;
+}
+
+.contacts div:not(:last-child) {
+  margin-bottom: 4.17vw;
+}
+
+.phoneNumber {
+  display: flex;
+  align-items: center;
+}
+
+.phoneNumber img{
+  width: 6.94vw;
+  height: 6.94vw;
+}
+
+/*  */
+
+.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.arrow svg{
+  width: 5.56vw;
+  height: 4.2vw;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+/*  */
+.store {
+  display: flex;
+  margin: auto;
+  margin-bottom: 4.72vw;
+}
+
+.store img {
+  width: 35.5vwvw;
+  height: 10.27vw;
+}
+
+.store img:not(:last-child) {
+  margin-right: 5.5vw;
+}

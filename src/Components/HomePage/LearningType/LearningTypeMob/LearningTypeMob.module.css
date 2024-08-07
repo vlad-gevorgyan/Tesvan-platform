@@ -1,0 +1,157 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+.gradient1 {
+  display: flex;
+  width: 91.1vw;
+  height: 98.3vw;
+  background-image: linear-gradient(to right top,rgba(244, 180, 26, 1),rgba(255, 255, 255, 0), rgba(226, 244, 26, 0));
+  border-radius: 8.9vw;
+  margin: auto;
+  margin-bottom: 6.94vw;
+}
+
+.gradient2 {
+  position: relative;
+  display: flex;
+  width: 91.1vw;
+  height: 98.3vw;
+  background-image: linear-gradient(to right top,rgba(244, 180, 26, 1),rgba(255, 255, 255, 0), rgba(226, 244, 26, 0));
+  border-radius: 8.9vw;
+  margin: auto;
+  margin-bottom: 6.94vw;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 90.1vw;
+  height: 97.3vw;
+  border-radius: 8.9vw;
+  background-color: #162A38;
+  margin: auto;
+}
+
+.image{
+  width: 22.5vw;
+  height: 22.5vw;
+  margin-top: 0;
+  margin-left: 9.17vw;
+} 
+
+.cardTitle {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-left: 6.94vw;
+  margin-bottom: 2.5vw;
+}
+
+.cardTitle h2{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 5.5vw;
+  line-height: 12.5vw;
+  color: #FFFFFF;
+  margin: 0;
+} 
+
+.cardTitle p{
+  width: 90%;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 4.2vw;
+  margin-bottom: 2.8vw;
+  color: #728796;
+  margin: 0;
+} 
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  border-top: 0.03vw solid #627785;
+  margin: 0 6.94vw 6.94vw 6.94vw;
+  padding-top: 4.17vw;
+}
+
+.paragraphs .paragraph:not(:last-child) {
+  margin-bottom: 5.28vw;
+}
+
+.paragraph {
+  display: flex;
+  align-items: center;
+}
+
+.paragraph p{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 4.4vw;
+  color: #AFB9C0;
+  margin: 0;
+  margin-left: 1.4vw;
+}
+
+.comingSoon {
+  position: absolute;
+  z-index: 1;
+  width: 36vw;
+  height: 36vw;
+  right: -1.21vw;
+  top: -0.31vw;
+}
+
+.comingSoon img {
+  width: 36vw;
+  height: 36vw;
+}
+
+.comingSoon h2{
+  position: absolute;
+  font-size: 4.5vw;
+  color: #143E59;
+  top: 7vw;
+  right: -2.5vw;
+  transform: rotate(45deg);
+}
+
+.gradient2 .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  opacity: 0.5;
+  background-color: #162A38;
+  border-radius: 1.67vw;
+}
+
+
+.custom-dot {
+  width: 3.89vw;
+  height: 3.89vw;
+  border-radius: 50%;
+  border: 0.28vw solid rgba(255, 203, 92, 50%);
+  background-color: #12222D;
+  margin: 0 0.3vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-dot.active {
+  width: 3.89vw;
+  height: 3.89vw;
+  background-color: #FFB81E;
+}
+
+.slick-dots li {
+  width: 0 !important;
+  margin: 0 0.26vw !important;
+}
+
+.ticksquare {
+  width: 5.5vw;
+  height: 5.5vw;
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@400;500&family=Teko:wght@300;400;500&display=swap');
+
+
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form {
+  width: 25.4vw;
+  height: 60%;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  display: flex;
+  gap: 3.28vw;
+  margin-top: 0.93vw;
+  font-size: 1.14vw;
+  background-color: #243745;
+  border-radius: 0.625vw;
+  color: #728796;
+  padding: 1.08vw 0 1.06vw 1.67vw;
+}
+
+.title{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  font-size: 1.14vw;
+  color: #AFB9C0;
+}
+
+input[type='radio'] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.radioButton {
+  position: relative;
+  padding-left: 1.56vw;
+  cursor: pointer;
+}
+
+
+.radioButton::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.4vw; 
+  width: 0.42vw; 
+  height: 0.42vw; 
+  border: 0.052vw solid #243745; 
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.16vw #243745, 0 0 0 0.32vw #979797;
+}
+
+input[type='radio']:checked + .radioButton::before {
+  background-color: #ffc107; 
+  box-shadow:0 0 0 0.16vw #243745, 0 0 0 0.32vw #ffc107;
+}
+
+input[type='radio'][value='yes']:checked + .radioButton {
+  color: #EBEBEB;
+}
+
+input[type='radio'][value='no']:checked + .radioButton {
+  color: #EBEBEB;
+}
+
+
+@media (max-width: 480px) {
+  .form {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+    width: 91.1vw;
+    display: flex;
+    gap: 2.28vw;
+    margin-top: 5vw;
+    background-color: #243745;
+    border-radius: 3.3vw;
+    color: #728796;
+  }
+  
+  .title{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    font-size: 5.5vw;
+    color: #AFB9C0;
+  }
+  
+  .label {
+    margin: 2.8vw 0 2.8vw 6.4vw;
+  }
+  
+  input[type='radio'] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  
+  .radioButton {
+    position: relative;
+    padding-left: 7.8vw;
+    cursor: pointer;
+    line-height: 1.8rem;
+  }
+  
+  
+  .radioButton::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2vw; 
+    width: 2vw; 
+    height: 2vw; 
+    border: 0 solid #243745; 
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.9vw #243745, 0 0 0 1.6vw #979797;
+  }
+
+  input[type='radio']:checked + .radioButton::before {
+    box-shadow:0 0 0 0.9vw #243745, 0 0 0 1.6vw #ffc107;
+  }
+}
